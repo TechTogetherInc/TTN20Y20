@@ -48,3 +48,30 @@ header.masthead {
 #stats {
 	background-color:#FBCAC3;
 }
+
+.sponsor-logo {
+	height:50px;
+	margin:20px;
+}
+
+#mc_embed_signup input.button {
+	width:100% !important;
+	background-color:#FBCAC3;
+	color:black;
+	border-radius: 20px;
+	height: 40px;
+}
+
+#mc_embed_signup input.button:hover {
+	background-color: #CB9992;
+}
+
+#mc_embed_signup input.email {
+	width:100% !important;
+	height: 40px;
+}
+
+#mc_embed_signup input.button {
+	font-weight: 800;
+	font-size: 16px;
+}
