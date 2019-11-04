@@ -2,6 +2,10 @@
 	font-size: 100px;
 }
 
+.text-red {
+	color:red;
+}
+
 #logo {
 	width:200px;
 }
@@ -9,11 +13,15 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(128, 140, 251, 0.6) 0%, rgba(128, 140, 251, 0.6) 100%), url("../img/team.png");
+  background: linear-gradient(to bottom, rgba(128, 140, 251, 0.6) 0%, rgba(128, 140, 251, 0.6) 100%), url("../img/team.png")!important;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+#job-page {
+	background-color: rgba(128, 140, 251, 0.6);
 }
 
 #subheader-title {
@@ -42,7 +50,7 @@ header.masthead {
 }
 
 .btn-light {
-	background-color:#FBCAC3;
+	background-color:#FBCAC3 !important;
 }
 
 #stats {
