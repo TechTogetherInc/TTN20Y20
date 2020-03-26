@@ -18,11 +18,12 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">  
+ <link href="vendor/magnific-popup/collapsible.css" rel="stylesheet">
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/main.css" rel="stylesheet">
   <link href="css/creative.css" rel="stylesheet">
+
 
 </head>
 
@@ -194,14 +195,50 @@
     </div>
   </section>
 
-    <!-- About Section -->
+    <!-- Organize Section -->
   <section class="page-section" id="organize">
     <div class="container">
       <div class="row justify-content-left">
         <h2 class="text-black mt-0" id = "body-title"><strong>Become an Organizer for TechTogether New York</strong></h2>
         <div class="col-lg-6 text-left">
           <h3 class="text-black mt-0" id="body-title-2"><strong>Open Positions</strong></h3>
-          <p class="text-black-50 mb-4"><a href="https://techtogether.io/director_ny.html" target="_blank">Director &rarr;</a></p>
+
+          <!-- Director positions -->
+          <button type="button" class="collapsible">Technical Director</button>
+			<div class="content-o">
+  				<p>Oversee and implement the creation of all TechTogether websites and web applications. This includes creating an event page, a live site, and being the point of contact for anything web-based through the organizing process!</p>
+			</div>
+
+		  <button type="button" class="collapsible">Director of Marketing</button>
+			<div class="content-o">
+  				<p>Lead and implement all marketing and communication activities on behalf of TechTogether. You will be helping with creating the theme for the event, relay information about the event to the community, and generally increase awareness and enthusiasm for our hackathon. :) </p>
+			</div>
+
+		  <button type="button" class="collapsible">Director of Operations</button>
+			<div class="content-o">
+  				<p>Assist the director in event planning and oversee day-to-day operations. You’ll be in charge of things like securing a venue, finalizing catering, ordering business cards - basically the logistics that help will make TechTogether New York possible. </p>
+			</div>
+
+		  <button type="button" class="collapsible">Director of Partnerships</button>
+			<div class="content-o">
+  				<p>Build and maintain relationships with the community to secure funding, speakers, workshop leaders, etc. This includes reaching out to sponsors and communicating with community members to make sure we have the support we need to put together an awesome experience for our hackers! </p>
+			</div>
+
+			<button type="button" class="collapsible">Director of Programming</button>
+			<div class="content-o">
+  				<p>Help facilitate the parts of the event that make a hackathon a hackathon - this includes finalizing activities for the hackers, securing volunteers, mentors, and judges, and selecting challenges and prizes. </p>
+			</div>
+
+			<button type="button" class="collapsible">Director of Hacker Experience</button>
+			<div class="content-o">
+  				<p>Help organize the event with a focus on making TechTogether inclusive, fun, and an overall great experience for every hacker who participates. You will also help with assisting hackers during the event itself! </p>
+			</div>
+
+			<br>
+			<br>
+
+		   
+           <p class="text-black-50 mb-4"><b>Interested? </b> Apply <a href="https://directorapp.typeform.com/to/K44e60" target="_blank">here! &rarr;</a></p>
         </div>
 
         <div class="col-lg-6 text-left">
@@ -293,7 +330,23 @@
     gtag('config', 'UA-151420772-1');
   </script>
 
+<!-- Open positions -->
+  <script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
 
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var content = this.nextElementSibling;
+	    if (content.style.display === "block") {
+	      content.style.display = "none";
+	    } else {
+	      content.style.display = "block";
+	    }
+	  });
+	}
+</script>
 </body>
 
 </html>
