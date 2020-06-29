@@ -2,10 +2,6 @@
 	font-size: 100px;
 }
 
-.text-red {
-	color:red;
-}
-
 #logo {
 	width:200px;
 }
@@ -13,7 +9,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(128, 140, 251, 0.6) 0%, rgba(128, 140, 251, 0.6) 100%), url("../img/team.png")!important;
+  background: linear-gradient(to bottom, rgba(128, 140, 251, 0.6) 0%, rgba(128, 140, 251, 0.6) 100%), url("../img/teamimage.jpg")!important;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -50,28 +46,23 @@ header.masthead {
 }
 
 .btn-light {
-	background-color:#FBCAC3 !important;
+	background-color:#fda094 !important;
 }
 
 #stats {
-	background-color:#FBCAC3;
-}
-
-.sponsor-logo {
-	height:50px;
-	margin:20px;
+	background-color:#fda094;
 }
 
 #mc_embed_signup input.button {
 	width:100% !important;
-	background-color:#FBCAC3;
+	background-color:#fda094;
 	color:black;
 	border-radius: 20px;
 	height: 40px;
 }
 
 #mc_embed_signup input.button:hover {
-	background-color: #CB9992;
+	background-color: #fda094;
 }
 
 #mc_embed_signup input.email {
@@ -84,6 +75,34 @@ header.masthead {
 	font-size: 16px;
 }
 
+.social_media_background {
+	background-color: #fda094
+}
+
+.social_icon {
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+}
+
+.social_title {
+	font-size: 45px;
+	padding: 15px;
+}
+
+.send_email {
+	font-size: 25px;
+	padding: 15px;
+}
+
+.sponsor-icon {
+	width: 100%;
+	margin: 20px;
+}
+
+.sponsor_section {
+	margin: 30px;
+}
 
 @media only screen and (max-width: 600px) {
     
