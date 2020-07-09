@@ -112,6 +112,11 @@ header.masthead {
 	margin: 30px;
 }
 
+.apply_date {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .collapsible {
 	background-color: #f1f1f1;
 	color: black;
