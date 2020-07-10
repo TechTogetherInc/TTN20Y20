@@ -6,12 +6,24 @@
 	width:200px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: Barlow;
+}
+
+p {
+	font-family: Roboto;
 }
 
 hr.divider {
 	border-color:white;
+}
+
+.font-light {
+	font-weight: 200;
+}
+
+#mc_embed_signup input.button {
+	color: #181D46 !important;
 }
 
 header.masthead {
@@ -41,6 +53,7 @@ header.masthead {
 	font-size: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-weight: 700;
 }
 
 #body-title-2 {
@@ -54,12 +67,22 @@ header.masthead {
 	width:500px;
 }
 
-.btn-light {
-	background-color:#fda094 !important;
+.img-recruit {
+	width: 100%;
+	margin: 100px;
+	border-bottom: 20px solid #222A68;
+	border-right: 20px solid #222A68;
+	border-left: 10px solid #222A68;
+	border-top: 10px solid #222A68;
 }
 
-#stats {
-	background-color:#fda094;
+/*.perks{
+	margin-top: 150px;
+	margin-left: 50px;
+}*/
+
+.btn-light {
+	background-color:#fda094 !important;
 }
 
 #mc_embed_signup input.button {
@@ -84,9 +107,9 @@ header.masthead {
 	font-size: 16px;
 }
 
-.social_media_background {
-	background-color: #fda094
-}
+/*.social_media_background {
+	background-color: #FC7361;
+}*/
 
 .social_icon {
 	height: 50px;
@@ -115,10 +138,6 @@ header.masthead {
 .sponsor-icon {
 	width: 100%;
 	margin: 20px;
-}
-
-.sponsor_section {
-	margin: 30px;
 }
 
 .apply_date {
@@ -153,10 +172,18 @@ header.masthead {
 
 .sponsor {
 	font-size: 20px;
-	color: #f1f1f1
+	color: #f1f1f1;
+	font-family: Roboto;
+	border-bottom: 3px solid #181D46;
+	text-decoration: none;
+	padding-bottom:5px;
 }
 @media only screen and (max-width: 600px) {
     
+	.player {
+		display: none;	
+	}
+
 	h1#header-title{
 		font-size: 70px;
 		padding-left: 10px;
