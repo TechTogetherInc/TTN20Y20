@@ -26,10 +26,15 @@ hr.divider {
 	color: #181D46 !important;
 }
 
+.navy-bg{
+	background-color:#181D46;
+	padding: 20px;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background-image: none;
+  background-image: url("/img/graphic_bg-01-min.png");
   background-color: #FC7361 !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,7 +51,7 @@ header.masthead {
 }
 
 .page-section {
-	padding: 6rem 0;
+	padding: 4rem 0;
 }
 
 .pink {
@@ -78,10 +83,7 @@ header.masthead {
 .img-recruit {
 	width: 100%;
 	margin: 100px;
-	border-bottom: 20px solid #222A68;
-	border-right: 20px solid #222A68;
-	border-left: 10px solid #222A68;
-	border-top: 10px solid #222A68;
+	border: 20px solid #222A68;
 }
 
 /*.perks{
@@ -102,7 +104,7 @@ header.masthead {
 }
 
 #mc_embed_signup input.button:hover {
-	background-color: #fda094;
+	background-color: #E26554;
 }
 
 #mc_embed_signup input.email {
@@ -183,13 +185,27 @@ header.masthead {
 	color: #f1f1f1;
 	font-family: Roboto;
 	border-bottom: 3px solid #181D46;
-	text-decoration: none;
 	padding-bottom:5px;
 }
+
+@media only screen and (max-width: 1000px) {
+	.video,.img-recruit {
+		display: none;
+	}
+
+	.page-section {
+		padding: 3rem 0px;
+	}
+}
+
 @media only screen and (max-width: 600px) {
     
-	.player {
+	.video, .img-recruit {
 		display: none;	
+	}
+
+	.page-section {
+		padding: 2rem 0px;
 	}
 
 	h1#header-title{
